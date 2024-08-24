@@ -84,7 +84,8 @@ reduced_image = temp_image.copy()
 factor = 16  # 8bpp to 4bpp means 16
 for i in range(image.shape[0]):
     for j in range(image.shape[1]):
-        reduced_image[i][j] = int(reduced_image[i][j] / factor)
+        reduced_image[i][j] = reduced_image[i][j] // factor
+        reduced_image[i][j] = int(reduced_image[i][j] * factor)
 
 cv.imwrite("OPImage_(2,2).png", reduced_image)
 

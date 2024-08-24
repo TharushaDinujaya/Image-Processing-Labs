@@ -42,7 +42,7 @@ Reduces the color depth of an image to 4 bits per pixel, limiting it to 16 color
 
 | Unprocessed Image                                                                                            | Gray Scaled Image                                                                                                       | Reduced to 4Bpp Image                                                                                                                         |
 | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Colored](https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/SrcImage.jpg) | ![Grayscale](<https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/OPImage_(1%2C1).png>) | ![Grayscale image reduced to 4Bpp](<https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/OPImage_(2%2C2).png>) |
+| ![Colored](https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/SrcImage.jpg) | ![Grayscale](<https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/OPImage_(1%2C1).png>) | ![Grayscale image reduced to 4Bpp](<https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/OPImage_(2%2C2).jpg>) |
 
 ## 6. Mirror Image
 
