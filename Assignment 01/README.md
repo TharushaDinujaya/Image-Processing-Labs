@@ -5,16 +5,23 @@ Image processing point operations involve modifying individual pixels in an imag
 ## 1. Brightness Adjustment
 
 Description: Increases or decreases the brightness of an image by adding or subtracting a constant value to each pixel's intensity.
+
 Formula: 𝐼′(𝑥,𝑦) = 𝐼(𝑥,𝑦) + 𝐶I
+
+| Unprocessed Image                                                                                            | Gray Scaled Image                                                                                                       | Brightness Increased Image                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Colored](https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/SrcImage.jpg) | ![Grayscale](<https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/OPImage_(1%2C1).png>) | ![Grayscale brightness increased](<https://github.com/TharushaDinujaya/Image-Processing-Labs/blob/main/Assignment%2001/OPImage_(1%2C3).png>) |
 
 ## 2. Contrast Adjustment
 
 Description: Modifies the contrast of an image by scaling the pixel values. This can make the image appear more vivid or more muted.
+
 Formula: 𝐼′(𝑥,𝑦) = 𝛼⋅𝐼(𝑥,𝑦) + 𝛽I
 
 ## 3. Negative Image
 
 Description: Inverts the pixel values of an image, converting light areas to dark and vice versa.
+
 Formula: 𝐼′(𝑥,𝑦) = 255 − 𝐼(𝑥,𝑦)
 
 ## 4. Color Manipulation
